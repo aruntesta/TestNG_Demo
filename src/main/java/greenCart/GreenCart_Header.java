@@ -25,11 +25,6 @@ public class GreenCart_Header extends BaseClass {
 
 	}
 
-	@Test()
-	public void cart() {
-	//	driver.findElement(By.xpath("//img[@alt='Cart']")).click();
-	}
-
 	@Test(priority = 2)
 	public void headerLink_TopDeals() {
 		driver.findElement(By.xpath("//a[text()='Top Deals']")).click();
@@ -73,6 +68,11 @@ public class GreenCart_Header extends BaseClass {
 		WebElement added = driver.findElement(By.xpath("//button[@class='added']"));
 		assertTrue(added.isDisplayed());
 
+	}
+	@Test
+	public void toCheckout() {
+		driver.findElement(By.xpath("//img[@alt='Cart']")).click();
+		driver.findElement(By.cssSelector("//button[text()='PROCEED TO CHECKOUT']")).click();
 	}
 
 }
