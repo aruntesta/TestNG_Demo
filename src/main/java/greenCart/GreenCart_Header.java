@@ -69,7 +69,6 @@ public class GreenCart_Header extends BaseClass {
 		searchBox.sendKeys("c");
 		WebDriverWait wt = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement addToCart = driver.findElement(By.xpath("//div/div/h4[text()='Carrot - 1 Kg']/following-sibling::div/button[text()='ADD TO CART']"));
-//		WebElement addToCart = driver.findElement(By.xpath("(//div/button[text()='ADD TO CART'])[1]"));
 		wt.until(ExpectedConditions.visibilityOf(addToCart)).click();
 		WebElement added = driver.findElement(By.xpath("//button[@class='added']"));
 		assertTrue(added.isDisplayed());
