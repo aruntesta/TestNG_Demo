@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-11T20:15:26 IST" name="Suite" finished-at="2025-08-11T20:15:36 IST" duration-ms="9717">
+    <groups>
+    </groups>
+    <test started-at="2025-08-11T20:15:26 IST" name="Test" finished-at="2025-08-11T20:15:36 IST" duration-ms="9717">
+      <class name="greenCart.BaseClass">
+        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:greenCart.BaseClass@4ec4f3a0]" started-at="2025-08-11T20:15:25 IST" name="browserInvoke" finished-at="2025-08-11T20:15:26 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method is-config="true" signature="url(java.lang.String)[pri:0, instance:greenCart.BaseClass@4ec4f3a0]" started-at="2025-08-11T20:15:26 IST" name="url" finished-at="2025-08-11T20:15:26 IST" duration-ms="580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/seleniumPractise/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method is-config="true" signature="browserExit()[pri:0, instance:greenCart.BaseClass@4ec4f3a0]" started-at="2025-08-11T20:15:36 IST" name="browserExit" finished-at="2025-08-11T20:15:37 IST" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExit -->
+      </class> <!-- greenCart.BaseClass -->
+      <class name="greenCart.OrderReview">
+        <test-method signature="agreeCheckbox()[pri:4, instance:greenCart.OrderReview@293a5bf6]" started-at="2025-08-11T20:15:35 IST" name="agreeCheckbox" finished-at="2025-08-11T20:15:35 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agreeCheckbox -->
+        <test-method signature="countrySelection()[pri:4, instance:greenCart.OrderReview@293a5bf6]" started-at="2025-08-11T20:15:35 IST" name="countrySelection" finished-at="2025-08-11T20:15:35 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrySelection -->
+        <test-method signature="proceedToOrder()[pri:4, instance:greenCart.OrderReview@293a5bf6]" started-at="2025-08-11T20:15:35 IST" name="proceedToOrder" finished-at="2025-08-11T20:15:35 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToOrder -->
+        <test-method signature="orderSucessMsg()[pri:5, instance:greenCart.OrderReview@293a5bf6]" started-at="2025-08-11T20:15:36 IST" name="orderSucessMsg" finished-at="2025-08-11T20:15:36 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSucessMsg -->
+      </class> <!-- greenCart.OrderReview -->
+      <class name="greenCart.Footer">
+        <test-method signature="footerText()[pri:0, instance:greenCart.Footer@130d63be]" started-at="2025-08-11T20:15:29 IST" name="footerText" finished-at="2025-08-11T20:15:29 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerText -->
+        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@130d63be]" started-at="2025-08-11T20:15:29 IST" name="footerText_Comparasion" finished-at="2025-08-11T20:15:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerText_Comparasion -->
+        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@130d63be]" started-at="2025-08-11T20:15:29 IST" name="footerText_Comparasion" finished-at="2025-08-11T20:15:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerText_Comparasion -->
+        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@130d63be]" started-at="2025-08-11T20:15:29 IST" name="footerText_Comparasion" finished-at="2025-08-11T20:15:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerText_Comparasion -->
+        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@130d63be]" started-at="2025-08-11T20:15:29 IST" name="footerText_Comparasion" finished-at="2025-08-11T20:15:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerText_Comparasion -->
+      </class> <!-- greenCart.Footer -->
+      <class name="greenCart.Header">
+        <test-method signature="headerLink_Flashlink()[pri:-2, instance:greenCart.Header@7d8995e]" started-at="2025-08-11T20:15:26 IST" name="headerLink_Flashlink" finished-at="2025-08-11T20:15:27 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerLink_Flashlink -->
+        <test-method signature="headerLink_FlightBooking()[pri:-2, instance:greenCart.Header@7d8995e]" started-at="2025-08-11T20:15:27 IST" name="headerLink_FlightBooking" finished-at="2025-08-11T20:15:28 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerLink_FlightBooking -->
+        <test-method signature="logo()[pri:0, instance:greenCart.Header@7d8995e]" started-at="2025-08-11T20:15:28 IST" name="logo" finished-at="2025-08-11T20:15:28 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method signature="search()[pri:0, instance:greenCart.Header@7d8995e]" started-at="2025-08-11T20:15:28 IST" name="search" finished-at="2025-08-11T20:15:28 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="headerLink_TopDeals()[pri:2, instance:greenCart.Header@7d8995e]" started-at="2025-08-11T20:15:28 IST" name="headerLink_TopDeals" finished-at="2025-08-11T20:15:29 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerLink_TopDeals -->
+        <test-method signature="toCheckout()[pri:2, instance:greenCart.Header@7d8995e]" started-at="2025-08-11T20:15:29 IST" name="toCheckout" finished-at="2025-08-11T20:15:29 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCheckout -->
+      </class> <!-- greenCart.Header -->
+      <class name="greenCart.CheckoutPage">
+        <test-method signature="promoCode(java.lang.String)[pri:2, instance:greenCart.CheckoutPage@42a48628]" started-at="2025-08-11T20:15:29 IST" name="promoCode" data-provider="appData" finished-at="2025-08-11T20:15:35 IST" duration-ms="5769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testpromo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promoCode -->
+        <test-method signature="promoCode(java.lang.String)[pri:2, instance:greenCart.CheckoutPage@42a48628]" started-at="2025-08-11T20:15:35 IST" name="promoCode" data-provider="appData" finished-at="2025-08-11T20:15:35 IST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promoCode -->
+        <test-method signature="checkoutAction()[pri:3, instance:greenCart.CheckoutPage@42a48628]" started-at="2025-08-11T20:15:35 IST" name="checkoutAction" finished-at="2025-08-11T20:15:35 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutAction -->
+      </class> <!-- greenCart.CheckoutPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
