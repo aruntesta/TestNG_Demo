@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class Footer extends BaseClass {
 String ftrTxt;
 
-	@Test
+	@Test 
 	public void footerText() {
 		ftrTxt = driver.findElement(By.xpath("//footer/p")).getText();
 		System.out.println(ftrTxt);

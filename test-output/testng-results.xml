@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-10T23:07:55 IST" name="Suite" finished-at="2025-08-10T23:07:58 IST" duration-ms="3016">
+  <suite started-at="2025-08-11T14:00:17 IST" name="Suite" finished-at="2025-08-11T14:00:28 IST" duration-ms="10965">
     <groups>
     </groups>
-    <test started-at="2025-08-10T23:07:55 IST" name="Test" finished-at="2025-08-10T23:07:58 IST" duration-ms="3016">
+    <test started-at="2025-08-11T14:00:17 IST" name="Test" finished-at="2025-08-11T14:00:28 IST" duration-ms="10965">
       <class name="greenCart.BaseClass">
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:greenCart.BaseClass@6d60fe40]" started-at="2025-08-10T23:07:54 IST" name="browserInvoke" finished-at="2025-08-10T23:07:55 IST" duration-ms="1233" status="PASS">
+        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:greenCart.BaseClass@4d1bf319]" started-at="2025-08-11T14:00:14 IST" name="browserInvoke" finished-at="2025-08-11T14:00:17 IST" duration-ms="2841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method is-config="true" signature="url(java.lang.String)[pri:0, instance:greenCart.BaseClass@6d60fe40]" started-at="2025-08-10T23:07:55 IST" name="url" finished-at="2025-08-10T23:07:56 IST" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="url(java.lang.String)[pri:0, instance:greenCart.BaseClass@4d1bf319]" started-at="2025-08-11T14:00:17 IST" name="url" finished-at="2025-08-11T14:00:18 IST" duration-ms="686" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,59 +22,105 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- url -->
-        <test-method is-config="true" signature="browserExit()[pri:0, instance:greenCart.BaseClass@6d60fe40]" started-at="2025-08-10T23:07:58 IST" name="browserExit" finished-at="2025-08-10T23:07:58 IST" duration-ms="340" status="PASS">
+        <test-method is-config="true" signature="browserExit()[pri:0, instance:greenCart.BaseClass@4d1bf319]" started-at="2025-08-11T14:00:28 IST" name="browserExit" finished-at="2025-08-11T14:00:29 IST" duration-ms="488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserExit -->
       </class> <!-- greenCart.BaseClass -->
+      <class name="greenCart.OrderReview">
+        <test-method signature="agreeCheckbox()[pri:4, instance:greenCart.OrderReview@6f204a1a]" started-at="2025-08-11T14:00:28 IST" name="agreeCheckbox" finished-at="2025-08-11T14:00:28 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agreeCheckbox -->
+        <test-method signature="countrySelection()[pri:4, instance:greenCart.OrderReview@6f204a1a]" started-at="2025-08-11T14:00:28 IST" name="countrySelection" finished-at="2025-08-11T14:00:28 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrySelection -->
+        <test-method signature="proceedToOrder()[pri:4, instance:greenCart.OrderReview@6f204a1a]" started-at="2025-08-11T14:00:28 IST" name="proceedToOrder" finished-at="2025-08-11T14:00:28 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToOrder -->
+        <test-method signature="orderSucessMsg()[pri:5, instance:greenCart.OrderReview@6f204a1a]" started-at="2025-08-11T14:00:28 IST" name="orderSucessMsg" finished-at="2025-08-11T14:00:28 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSucessMsg -->
+      </class> <!-- greenCart.OrderReview -->
       <class name="greenCart.Footer">
-        <test-method signature="footerText()[pri:0, instance:greenCart.Footer@723ca036]" started-at="2025-08-10T23:07:58 IST" name="footerText" finished-at="2025-08-10T23:07:58 IST" duration-ms="112" status="PASS">
+        <test-method signature="footerText()[pri:0, instance:greenCart.Footer@239a307b]" started-at="2025-08-11T14:00:21 IST" name="footerText" finished-at="2025-08-11T14:00:21 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerText -->
-        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@723ca036]" started-at="2025-08-10T23:07:58 IST" name="footerText_Comparasion" finished-at="2025-08-10T23:07:58 IST" duration-ms="0" status="PASS">
+        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@239a307b]" started-at="2025-08-11T14:00:21 IST" name="footerText_Comparasion" finished-at="2025-08-11T14:00:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerText_Comparasion -->
-        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@723ca036]" started-at="2025-08-10T23:07:58 IST" name="footerText_Comparasion" finished-at="2025-08-10T23:07:58 IST" duration-ms="3" status="PASS">
+        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@239a307b]" started-at="2025-08-11T14:00:21 IST" name="footerText_Comparasion" finished-at="2025-08-11T14:00:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerText_Comparasion -->
-        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@723ca036]" started-at="2025-08-10T23:07:58 IST" name="footerText_Comparasion" finished-at="2025-08-10T23:07:58 IST" duration-ms="2" status="PASS">
+        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@239a307b]" started-at="2025-08-11T14:00:21 IST" name="footerText_Comparasion" finished-at="2025-08-11T14:00:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerText_Comparasion -->
-        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@723ca036]" started-at="2025-08-10T23:07:58 IST" name="footerText_Comparasion" finished-at="2025-08-10T23:07:58 IST" duration-ms="2" status="PASS">
+        <test-method signature="footerText_Comparasion()[pri:0, instance:greenCart.Footer@239a307b]" started-at="2025-08-11T14:00:21 IST" name="footerText_Comparasion" finished-at="2025-08-11T14:00:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerText_Comparasion -->
       </class> <!-- greenCart.Footer -->
-      <class name="greenCart.GreenCart_Header">
-        <test-method signature="cart()[pri:0, instance:greenCart.GreenCart_Header@304bb45b]" started-at="2025-08-10T23:07:56 IST" name="cart" finished-at="2025-08-10T23:07:56 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cart -->
-        <test-method signature="logo()[pri:0, instance:greenCart.GreenCart_Header@304bb45b]" started-at="2025-08-10T23:07:56 IST" name="logo" finished-at="2025-08-10T23:07:56 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logo -->
-        <test-method signature="search()[pri:0, instance:greenCart.GreenCart_Header@304bb45b]" started-at="2025-08-10T23:07:56 IST" name="search" finished-at="2025-08-10T23:07:56 IST" duration-ms="308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method signature="headerLink_Flashlink()[pri:2, instance:greenCart.GreenCart_Header@304bb45b]" started-at="2025-08-10T23:07:56 IST" name="headerLink_Flashlink" finished-at="2025-08-10T23:07:57 IST" duration-ms="1012" status="PASS">
+      <class name="greenCart.Header">
+        <test-method signature="headerLink_Flashlink()[pri:-2, instance:greenCart.Header@43f02ef2]" started-at="2025-08-11T14:00:18 IST" name="headerLink_Flashlink" finished-at="2025-08-11T14:00:19 IST" duration-ms="1030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerLink_Flashlink -->
-        <test-method signature="headerLink_FlightBooking()[pri:2, instance:greenCart.GreenCart_Header@304bb45b]" started-at="2025-08-10T23:07:57 IST" name="headerLink_FlightBooking" finished-at="2025-08-10T23:07:58 IST" duration-ms="547" status="PASS">
+        <test-method signature="headerLink_FlightBooking()[pri:-2, instance:greenCart.Header@43f02ef2]" started-at="2025-08-11T14:00:19 IST" name="headerLink_FlightBooking" finished-at="2025-08-11T14:00:19 IST" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerLink_FlightBooking -->
-        <test-method signature="headerLink_TopDeals()[pri:2, instance:greenCart.GreenCart_Header@304bb45b]" started-at="2025-08-10T23:07:58 IST" name="headerLink_TopDeals" finished-at="2025-08-10T23:07:58 IST" duration-ms="363" status="PASS">
+        <test-method signature="logo()[pri:0, instance:greenCart.Header@43f02ef2]" started-at="2025-08-11T14:00:19 IST" name="logo" finished-at="2025-08-11T14:00:20 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method signature="search()[pri:0, instance:greenCart.Header@43f02ef2]" started-at="2025-08-11T14:00:20 IST" name="search" finished-at="2025-08-11T14:00:20 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="headerLink_TopDeals()[pri:2, instance:greenCart.Header@43f02ef2]" started-at="2025-08-11T14:00:20 IST" name="headerLink_TopDeals" finished-at="2025-08-11T14:00:21 IST" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerLink_TopDeals -->
-      </class> <!-- greenCart.GreenCart_Header -->
+        <test-method signature="toCheckout()[pri:2, instance:greenCart.Header@43f02ef2]" started-at="2025-08-11T14:00:21 IST" name="toCheckout" finished-at="2025-08-11T14:00:21 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCheckout -->
+      </class> <!-- greenCart.Header -->
+      <class name="greenCart.CheckoutPage">
+        <test-method signature="promoCode(java.lang.String)[pri:2, instance:greenCart.CheckoutPage@2a8448fa]" started-at="2025-08-11T14:00:21 IST" name="promoCode" data-provider="appData" finished-at="2025-08-11T14:00:27 IST" duration-ms="5805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testpromo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promoCode -->
+        <test-method signature="promoCode(java.lang.String)[pri:2, instance:greenCart.CheckoutPage@2a8448fa]" started-at="2025-08-11T14:00:27 IST" name="promoCode" data-provider="appData" finished-at="2025-08-11T14:00:27 IST" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promoCode -->
+        <test-method signature="checkoutAction()[pri:3, instance:greenCart.CheckoutPage@2a8448fa]" started-at="2025-08-11T14:00:27 IST" name="checkoutAction" finished-at="2025-08-11T14:00:28 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutAction -->
+      </class> <!-- greenCart.CheckoutPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

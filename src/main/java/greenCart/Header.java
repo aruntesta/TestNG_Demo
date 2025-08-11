@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 import net.bytebuddy.implementation.bind.annotation.Super;
 
-public class GreenCart_Header extends BaseClass {
+public class Header extends BaseClass {
 
 	@Test()
 	public void logo() {
@@ -28,7 +28,7 @@ public class GreenCart_Header extends BaseClass {
 	@Test(priority = 2)
 	public void headerLink_TopDeals() {
 		driver.findElement(By.xpath("//a[text()='Top Deals']")).click();
-		GreenCart_Header gh = new GreenCart_Header();
+		Header gh = new Header();
 		String prtID = gh.windowsID().get(0);
 		String chdID = gh.windowsID().get(1);
 		driver.switchTo().window(chdID);
@@ -36,10 +36,10 @@ public class GreenCart_Header extends BaseClass {
 		driver.switchTo().window(prtID);
 	}
 
-	@Test(priority = 2)
+	@Test(priority = -2)
 	public void headerLink_FlightBooking() {
 		driver.findElement(By.xpath("//a[text()='Flight Booking']")).click();
-		GreenCart_Header gh = new GreenCart_Header();
+		Header gh = new Header();
 		String prtID = gh.windowsID().get(0);
 		String chdID = gh.windowsID().get(1);
 		driver.switchTo().window(chdID);
@@ -47,10 +47,10 @@ public class GreenCart_Header extends BaseClass {
 		driver.switchTo().window(prtID);
 	}
 
-	@Test(priority = 2)
+	@Test(priority = -2)
 	public void headerLink_Flashlink() {
 		driver.findElement(By.xpath("//a[contains(@class,'blinkingText')]")).click();
-		GreenCart_Header gh = new GreenCart_Header();
+		Header gh = new Header();
 		String prtID = gh.windowsID().get(0);
 		String chdID = gh.windowsID().get(1);
 		driver.switchTo().window(chdID);
@@ -69,10 +69,10 @@ public class GreenCart_Header extends BaseClass {
 		assertTrue(added.isDisplayed());
 
 	}
-	@Test
+	@Test (priority = 2)
 	public void toCheckout() {
 		driver.findElement(By.xpath("//img[@alt='Cart']")).click();
-		driver.findElement(By.cssSelector("//button[text()='PROCEED TO CHECKOUT']")).click();
+		driver.findElement(By.xpath("//button[text()='PROCEED TO CHECKOUT']")).click();
 	}
 
 }

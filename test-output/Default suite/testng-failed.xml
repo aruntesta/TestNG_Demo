@@ -3,19 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="greenCart.GreenCart_Header">
+      <class name="greenCart.CheckoutPage">
         <methods>
-          <include name="cart"/>
-          <include name="headerLink_Flashlink"/>
-          <include name="logo"/>
+          <include name="promoCode"/>
+          <include name="checkoutAction"/>
           <include name="browserExit"/>
           <include name="browserInvoke"/>
-          <include name="headerLink_TopDeals"/>
-          <include name="headerLink_FlightBooking"/>
-          <include name="search"/>
           <include name="url"/>
         </methods>
-      </class> <!-- greenCart.GreenCart_Header -->
+      </class> <!-- greenCart.CheckoutPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -13,6 +13,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
@@ -38,6 +39,12 @@ public class BaseClass {
 		driver.close();
 		driver.quit();
 	}
+	
+	@DataProvider
+	public String[] appData() {
+		String [] promoCode = {"testpromo","rahulshettyacademy"};
+		return promoCode;
+	}
 
 	public ArrayList<String> windowsID() {
 		Set<String> windowsID = driver.getWindowHandles();
@@ -45,5 +52,5 @@ public class BaseClass {
 		return winID;
 
 	}
-		
+	
 }
